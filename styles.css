@@ -52,7 +52,7 @@ body {
 
 .media img,
 .media iframe {
-    width: 65%;
+    width: 75%;
     aspect-ratio: 4 / 3;
     border: 2px solid #ddd;
     border-radius: 5px;
