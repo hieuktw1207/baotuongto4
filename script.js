@@ -10,9 +10,11 @@ document.addEventListener("DOMContentLoaded", function() {
         if (email === "" || comment === "") {
             alert("Vui lòng nhập đầy đủ email và bình luận!");
         } else {
-            alert("Cảm ơn bạn đã gửi bình luận, chúng tôi sẽ xem xét tiếp thu và cải thiện trong những lần tiếp theo!");
-            emailInput.value = "";
-            commentTextarea.value = "";
+            if (confirm("Cảm ơn bạn đã gửi bình luận, chúng tôi sẽ xem xét tiếp thu và cải thiện trong những lần tiếp theo! Nếu bạn còn bất kì thắc mắc nào, hãy liên hệ trực tiếp với chúng tôi.")) {
+                emailInput.value = "";
+                commentTextarea.value = "";
+                window.location.href = "https://www.facebook.com/profile.php?id=100086858357852";
+            }
         }
     });
 });
