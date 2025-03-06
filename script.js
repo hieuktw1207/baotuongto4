@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 window.location.href = "https://www.facebook.com/profile.php?id=100086858357852";
             }
         } else {
-            alert("Vui lòng nhập đầy đủ email và bình luận!");
+            alert("Vui lòng kiểm tra lại định dạng email và bình luận!");
         }
     });
 });
