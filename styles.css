@@ -47,12 +47,12 @@ body {
 
 .media {
     display: block;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .media img,
 .media iframe {
-    width: 70%;
+    width: 50%;
     aspect-ratio: 4 / 3;
     border: 2px solid #ddd;
     border-radius: 5px;
