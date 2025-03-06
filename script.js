@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function() {
         const comment = commentTextarea.value.trim();
 
         if (email === "" || comment === "") {
-            alert("Vui lòng nhập email và bình luận!");
+            alert("Vui lòng nhập đầy đủ email và bình luận!");
         } else {
-            alert("Cảm ơn bạn đã gửi bình luận!");
+            alert("Cảm ơn bạn đã gửi bình luận, chúng tôi sẽ xem xét tiếp thu và cải thiện trong những lần tiếp theo!");
             emailInput.value = "";
             commentTextarea.value = "";
         }
